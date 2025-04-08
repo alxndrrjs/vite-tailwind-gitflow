@@ -37,3 +37,7 @@ Práctica Vite-Tailwind-GitFlow
   Aceptar todos los cambios
 
   4.- Elaborar mini amazon
+
+  Product cards y eso jaja
+
+  5.- Testing y optimización
