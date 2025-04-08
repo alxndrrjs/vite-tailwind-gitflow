@@ -41,3 +41,5 @@ Práctica Vite-Tailwind-GitFlow
   Product cards y eso jaja
 
   5.- Testing y optimización
+
+  ejecutar npm run build

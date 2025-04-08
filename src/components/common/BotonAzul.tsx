@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const BotonAzul = () => {
   return (
     <div className="flex w-4xl mx-auto flex-col gap-4">

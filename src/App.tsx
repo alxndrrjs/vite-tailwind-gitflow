@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { BotonAzul } from './components/common/BotonAzul';
 import { SearchBar } from './components/common/SearchBar';
