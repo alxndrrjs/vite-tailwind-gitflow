@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import { BotonAzul } from './components/common/BotonAzul';
 import { SearchBar } from './components/common/SearchBar';
@@ -25,6 +26,12 @@ const productos = [
 ];
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredProducts = productos.filter((producto) =>
+    producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <>
       <h1>Hola mundo footer</h1>
@@ -34,9 +41,9 @@ function App() {
       <br />
       <div className="container mx-auto px-4">
         <h1 className="text-8xl font-bold text-center my-8">Mini Amazon</h1>
-        <SearchBar />
+        <SearchBar onSearch={setSearchTerm} />
         <div className="grid grid-cols-1 my-8 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {productos.map((producto) => (
+          {filteredProducts.map((producto) => (
             <ProductCard key={producto.id} {...producto} />
           ))}
         </div>
