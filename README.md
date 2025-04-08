@@ -29,3 +29,11 @@ Práctica Vite-Tailwind-GitFlow
       "tabWidth": 2
 
   }
+
+  3.- Solucionar conflictos
+
+  git merge --no-ff origin/feature/footer-component
+
+  Aceptar todos los cambios
+
+  4.- Elaborar mini amazon
