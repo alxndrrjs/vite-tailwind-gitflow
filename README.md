@@ -8,7 +8,7 @@ Práctica Vite-Tailwind-GitFlow
       </button>
     `
 
-  - A través de un @layer usando una clase para agregar todas
+  - A través de un @layer usando una clase para agregar los estilos
     `<button className='btn-azul'>Este es un botón azul estilizado con una sola clase utilizando @layer</button>`
 
     `@layer components {
