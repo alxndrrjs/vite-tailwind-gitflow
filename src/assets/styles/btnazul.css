@@ -1,0 +1,5 @@
+@layer components {
+  .btn-azul {
+    @apply bg-blue-500 cursor-pointer hover:bg-blue-600 transition-all duration-300 text-white p-2 rounded-md;
+  }
+}

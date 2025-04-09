@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@import './assets/styles/btnazul.css';
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -19,10 +21,4 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@layer components {
-  .btn-azul {
-    @apply bg-blue-500 cursor-pointer hover:bg-blue-600 transition-all duration-300 text-white p-2 rounded-md;
-  }
 }
